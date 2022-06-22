@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Outfit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    left: 85px;
+    top: 52px;
+    border-radius: 0px;
+}
+header ul{
+    display: flex;
+    width: 38rem;
+    justify-content: space-between;
+}
+header ul li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+header a:hover{
+    color: #c1c8cd;
+	cursor: pointer;
+}
+.boutton{
+    height: 63px;
+    width: 161px;
+    top: 52px;
+    border-radius: 0px;
+    background: black;
+    color: white;
+    border: black solid 1px;
+    font-family: 'outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.boutton:hover{
+    background: white;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 60px;
+    height: 10vh;
+    margin-top: 15px;
+    padding: 25px;
+}
+.box1{
+    position: relative;
+    margin-top: 0.5rem;
+    height: 110vh;
+    }
+.detente{
+    width: 614px;
+    left: 50px;
+    margin-top: 10px;
+    height: 85vh;
+    position: relative;
+    color: black;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detente span{
+    margin-top: 100px;
+    font-size: 4.8rem;
+    font-weight: bold;
+    margin-bottom: 20rem;
+    margin-left: 2rem;
+    font-family: 'Abhaya Libre', sans-serif;
+} 
+.detente-boutton{
+    margin-left: 30px;
+	width: 130px;
+    height: 40px;
+	font-family: 'outfit', sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	background-color: black;
+    border: black solid 1px;
+	cursor: pointer;
+    margin-top: -300px;
+}
+.detente-boutton:hover {
+	background: white;
+	color: black;
+}
+.banc{
+    height: 600px;
+    top: 55px;
+    right: 0;
+    position: absolute;
+}
+.reservation{
+    width: 730px;
+    opacity: 89%;
+    display: flex;
+    bottom: -100px;
+}
+
+.pos{
+    position: relative;
+    font-size: 15px;
+    top: 5px;
+    margin-right: 50px;
+}
+.noir1{
+    position: relative;
+    font-size: 18px;
+    top: -0px;
+    margin-right: 50px;
+}
+
+.resa label{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.resa label img{
+    height: 30px;
+    width: 30px;
+    margin-right: 25px;
+}
+
+.resa{
+    width: 410px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -110px;
+    background-color: #ffffff;
+
+}
+.box2{
+    background: #FBF7F4;
+    height: 150vh;
+    width: 100%;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
+.div-gauche{
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div2 .div-gauche .chambres{
+    height: 370px;
+    width: 563px;
+    position: relative;
+}
+.discount{
+    position: absolute;
+    height: 190px;
+    width: 275px;
+    background-color: rgba(255, 255, 255, 0.808);
+    bottom: 0;
+    border-left: 5px solid #E79434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discount span{
+    font-family: 'outfit', sans-serif;
+    width: 226px;
+}
+.discount span strong{
+    font-size: 3rem;
+}
+.div-droite{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.voir{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.voirContent h2{
+    font-size: 3.9rem;
+}
+.voirContent p{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.voirContent5 h2{
+    font-size: 3.9rem;
+    margin-bottom: 1rem;  
+}
+.voirContent5 p{
+    font-family: 'outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-bottom: 4rem;
+}
+.icon{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+.voir button{
+    height: 60px;
+    width: 130px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'outfit', sans-serif;
+    font-size: 1.1em;
+}
+
+.voirItems{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon1 span{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.cercle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid #E79434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotate45deg{
+    transform: rotate(45deg);
+}
+.cercle img{
+    height: 37px;
+    width: 37px;
+}
+.icon1{
+    font-size: 1.2rem;
+}
+.voirbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    cursor: pointer;
+}
+.voirbtn :hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.centered p{
+    text-align: center;
+}
+.section3{
+    margin-top: 10vh ;
+    margin-bottom: 40vh;
+}
+
+.rectangle{
+    text-align: center;
+    height: 140px;
+    width: 24%;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+
+}
+.rectangle img{
+    height: 53px;
+    width: 53px;
+    margin-top: 20px;
+}
+.o-restaurant{
+    background: #000;
+    color: #E79434;
+}
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 44px;
+}
+.restaurant{
+    width: 100%;
+    margin-left: 45px;
+    margin-top: 3rem;
+    display: flex;
+    margin-right: 90px;
+    justify-content: space-between;
+    
+}
+.specificities{
+    width: 43%;
+    margin-right: 90px;
+}
+.poppinstitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+.section3 h2{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 48px;
+}
+.section3 p{
+    font-family: 'outfit', sans-serif;
+    font-size: 25px;
+}
+.texte{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+}
+.texte ul{
+    list-style: none;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.texte ul li::before{
+    content: "";
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E79434;
+    font-weight: bolder;
+    display: inline-block;
+    width: 8px;
+    margin-right: 10px;
+}
+.facilitiesContent3{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.btnreservez{
+    width: 150px;
+    height: 70px;
+    background: black;
+    color: white;
+    border: black solid 1px;
+    font-family: 'outfit', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+    top: 30px;
+}
+.btnreservez:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.rectangle2{
+    height: 45px;
+    width: 210px;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.box4 .facilitiesContent {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.box4 .facilitiesContent .h2 {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 44px;
+    position: absolute;
+    margin: 0 auto;
+    left: 30%;
+    width: 50%;
+    margin-top: -180px;
+}
+.services2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 2rem;
+}
+.o-restaurant2{
+    background: #000;
+    color: #ffffff;
+}
+.introrooms{
+    margin-top: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    width: 350px;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.introrooms p{
+    margin-bottom: 1.5rem;
+}
+
+.offeer{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+.offeer img{
+    background-color: red;
+
+}
+.intro p{
+    width: 400px;
+}
+.chambre{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 6rem;
+
+}
+.box5{
+    background-color: #F6F5F1;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 8rem;
+}
+.mainsecdiv2{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+}
+.Leftsside{
+    width: 385px;
+    height: 254px;
+    position: relative;
+    margin-top: 5rem;
+    
+}
+.fille{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.homme{
+    position: absolute;
+    left: 0%;
+    bottom: -11%;
+}
+.barbu{
+    position: absolute;
+    left: -91%;
+    top: 42%;
+}
+.Rightsside{
+    margin-top: 3rem;
+}
+.facilitiesContent2 h2{
+    font-size: 3.9rem;
+    margin-bottom: 7.5rem;
+    margin-left: 100px;
+}
+.facilitiesContent2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+.introrooms2 p{
+    margin-bottom: 1.5rem;
+    width: 430px;
+    line-height: 2.2rem;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 100px;
+    display: block;
+}
+.avis{
+    display: flex;
+    width: 83%;
+    font-family: 'Abhaya Libre', sans-serif;
+}
+.avis2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+}
+.introrooms3{
+    margin-left: 100px;
+}
+.avis2 img{
+    height: 17px;
+    width: 17px;
+    margin-right: 7px;
+    margin-top: 32px;
+}
+.gauche{
+    height: 22px;
+    width: 33px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.droite{
+    height: 22px;
+    width: 33px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    background-color: #000;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.pousse{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    width: 81%;
+    margin-left: -130px;
+}
+.droite img{
+    height: 15px;
+    width: 28px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.gauche img{
+    height: 15px;
+    width: 28px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.noir{
+    width: 50%;
+    min-height: 350px;
+    background: #000;
+    padding-left: 7rem;
+    padding-top: 6rem;
+}
+.rond2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rond2 img{
+    height: 25px;
+    width: 25px;
+}
+.rond3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rond3 img{
+    height: 25px;
+    width: 25px;
+}
+.reseau{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.bas{
+    display: flex;
+    color: #a1a1a1;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.bas ul{
+    list-style-type: none;
+    line-height: 3rem;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.bas span{
+    font-weight: bold;
+    color: #ffffff;
+}
+footer{
+    background-color: #F6F5F1 ;
+    display: flex;
+    
+}
+.footer{
+    padding-left: 4rem;
+    width: 50%;
+}
+.facilitiesContent h2{
+    font-size: 40px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-family: 'Abhaya Libre', sans-serif;
+}
+.facilitiesContent p{
+    font-family: 'outfit', sans-serif;
+    font-size: 25px;
+}
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 2rem;
+    font-family: 'outfit',sans-serif;
+}
+.rectangle3{
+    height: 45px;
+    width: 48%;
+    border: 2px solid black;
+    font-family: 'outfit', sans-serif;
+    font-size: 1.1rem;
+}
+.rectangle3 .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-top: 8px;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.gradient{
+    width: 200px;
+    height: 110px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+}
