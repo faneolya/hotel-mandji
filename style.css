@@ -57,6 +57,22 @@ header{
     margin-top: 15px;
     padding: 25px;
 }
+.datecontent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+}
+.datecontent input{
+    border: 1px solid white;
+    cursor: default; 
+    outline: none; 
+    width: 120px; 
+
+}
 .box1{
     position: relative;
     margin-top: 0.5rem;
@@ -578,13 +594,14 @@ header{
     width: 28px;
     cursor: pointer;
     margin-bottom: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .gauche img{
     height: 15px;
     width: 28px;
     cursor: pointer;
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 .noir{
     width: 50%;
@@ -674,11 +691,13 @@ footer{
     font-family: 'outfit',sans-serif;
 }
 .rectangle3{
-    height: 45px;
+    height: 50px;
     width: 48%;
     border: 2px solid black;
     font-family: 'outfit', sans-serif;
     font-size: 1.1rem;
+    cursor: pointer;
+    
 }
 .rectangle3 .name{
     display: flex;
@@ -687,6 +706,15 @@ footer{
     text-align: center;
     margin: 0;
     padding-top: 8px;
+    font-size: 18px;
+}
+.form input{
+    text-align: center;
+    font-size: 18px;
+}
+.form input::placeholder{
+    color: #000;
+    font-size: 18px;
 }
 .mt-2{
     margin-top: 2rem;

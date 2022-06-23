@@ -30,9 +30,9 @@
                     <label for="datepickerentry" class="borderright">
                         <img src="./ressources/icons/4.png" alt="">
                         <div class="data">
-                            <span class="noir1">Entré</span>
-                            <span id="adate" class="pos">Date</span>
-
+                            <span class="bold">Entré</span>
+                            <input type="date" id="datepickerentry">
+                            <span id="ddate" class="pos"></span>
                         </div>
                     </label>
                 </div>
@@ -40,8 +40,9 @@
                     <label for="datepickerexit" class="borderright">
                         <img src="./ressources/icons/4.png" alt="">
                         <div class="date">
-                            <span class="noir1">Sortie</span>
-                            <span id="adate" class="pos">Date</span>
+                            <span class="bold">Sortie</span>
+                            <input type="date" id="datepickerentry">
+                            <span id="ddate" class="pos"></span>
                         </div>
                     </label>
                 </div>
@@ -49,8 +50,9 @@
                     <label for="people">
                         <img src="./ressources/icons/6.png" alt="">
                         <div class="data">
-                            <span class="noir1">Nombres</span>
-                            <span id="adate" class="pos">Ajouter</span>
+                            <span class="bold">Nombres</span>
+                            <input style="width: 100px;" type="number" id="datepickerentry">
+                            <span id="ddate" class="pos"></span>
                         </div>
                     </label>
                 </div>
@@ -285,10 +287,10 @@
                     </div>
                     <div class="pousse">
                         <div class="gauche centered">
-                            <img src="./ressources/icons/left-arrow (1).png" alt="">
+                            <img src="./ressources/icons/left-arrow (1).png" alt="" style="width: 15px ; height: 15px;">
                         </div>
                         <div class="droite centered">
-                            <img src="./ressources/icons/right-arrow (1).png" alt="">
+                            <img src="./ressources/icons/right-arrow (1).png" alt="" style="width: 15px ; height: 15px;">
 
                         </div>
                     </div>
@@ -341,53 +343,17 @@
                     mémorable.</p><br>
             </div>
             <div class="form">
-                <div class="rectangle3 centered">
-                    <span class="name">Prénom</span>
-                </div>
-                <div class="rectangle3 centered">
-                    <span class="name">Nom</span>
-                </div>
+                <input type="text" id="name" name="name" placeholder="Nom" style="border: black solid 2px ; width: 245px; height: 50px;">
+                <input type="text" id="prénom;" name="prénom" placeholder="Prénom" style="border: black solid 2px ; width: 245px; height: 50px;">
             </div>
             <div class="form">
-                <div class="rectangle3 centered">
-                    <span class="name">E-mail</span>
-                </div>
+                <input type="email" id="email;" name="email" placeholder="Email" style="border: black solid 2px ; width: 245px; height: 50px;">
                 <div class="rectangle3 centered o-restaurant2">
                     <span class="name">Abonnez-vous maintenant</span>
                 </div>
             </div>
         </div>
     </footer>
-    <script>
-        const numberOfPeople = document.querySelector('#numberOfPeople')
-        const spanDate = document.querySelector('#ddate')
-        const spanDate2 = document.querySelector('#adate')
-        const inputDateEntry = document.querySelector('#datepickerentry')
-        const inputDateExit = document.querySelector('#datepickerexit')
-        const inputNumberOfPeople = document.querySelector('#people')
 
-
-        inputDateEntry.addEventListener('click', function(){
-            spanDate.remove()
-        
-        })
-        inputDateExit.addEventListener('click', function(){
-            spanDate2.remove()
-        
-        })
-        inputNumberOfPeople.addEventListener('click', function(){
-            numberOfPeople.remove()
-        
-        })
-        
-    </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <script>
-    $( function() {
-    $( "#datepickerentry" ).datepicker();
-    $( "#datepickerexit" ).datepicker();
-    } );
-    </script>
-
-</body></html>
+</body>
+</html>
